@@ -31,7 +31,7 @@ public class Restassuerd {
 		
 		
 	}
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void test1() {
 		
 		 given()
@@ -45,7 +45,7 @@ public class Restassuerd {
          .log().all();
 	}
 	
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void test3() {
 		String json = "{\n" +
 		        "    \"page\": 2,\n" +
